@@ -83,16 +83,74 @@
         </fieldset>
 
         <fieldset>
-            <legend>Your Preferences</legend>
-            <h3>Choose Your Location!</h3>
-            <div></div>
+          <legend>Your Preferences</legend>
+          <h3>Choose Your Location!</h3>
+          <div>
+            <input
+              type="radio"
+              id="Aruba"
+              name="location"
+              value="Aruba"
+              checked
+            />
+            <label for="Aruba">Aruba</label>
+          </div>
+          <div>
+            <input type="radio" id="Japan" name="location" value="Japan" />
+            <label for="Japan">Japan</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="Reykjavik"
+              name="location"
+              vale="Reykjavik"
+            />
+            <label for="Reykjavik">Reykjavik</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="New-Zeland"
+              name="location"
+              vale="New-Zeland"
+            />
+            <label for="New-Zeland">New-Zeland</label>
+          </div>
         </fieldset>
-
-        <!-- TODO: Second fieldset -->
-        <!-- TODO: Radio buttons for selecting preferred destination -->
-        <!-- TODO: Color input for selecting favorite color -->
-        <!-- TODO: Checkboxes for selecting extra add-ons -->
-
+        <fieldset>
+          <legend>Your Favorite Color Is?</legend>
+          <div>
+            <input type="color" name="color" id="color" />
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Add-Ons and Extras</legend>
+          <div>
+            <input type="checkbox" id="Pillows" name="extras" value="Pillows" />
+            <label for="Pillows">Pillows?</label>
+          </div>
+          <div>
+            <input type="checkbox" id="Meal Plan" name="extras" value="Meal Plan" />
+            <label for="Meal Plan">Meal PLan?</label>
+          </div>
+          <div>
+            <input type="checkbox" id="Adult Beverages" name="extras" value="Adult Beverages" />
+            <label for="Adult Beverages">Adult Beverages?</label>
+          </div>
+          <div>
+            <input type="checkbox" id="Baby Sitter" name="extras" value="Baby Sitter" />
+            <label for="Baby Sitter">Baby Sitter?</label>
+          </div>
+          <div>
+            <input type="checkbox" id="Free Wi-Fi" name="extras" value="Free Wi-Fi" />
+            <label for="Free Wi-Fi">Free Wi-Fi?</label>
+          </div>
+          <div>
+            <input type="checkbox" id="Spa" name="extras" value="Spa" />
+            <label for="Spa">Spa?</label>
+          </div>
+        </fieldset>
         <!-- TODO: Submit Button -->
       </form>
     </main>
